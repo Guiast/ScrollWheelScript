@@ -1,8 +1,8 @@
 #include <AutoItConstants.au3>
 ; capture and pass along a keypress
 
-HotKeySet("{PGUP}", "scrollUp")
-HotKeySet("{PGDN}", "scrollDown")
+HotKeySet("{Up}", "scrollUp")
+HotKeySet("{Down}", "scrollDown")
 HotKeySet("{Esc}","stop")
 
 ; Function that scrolls mouse wheel up
